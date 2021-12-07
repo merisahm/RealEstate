@@ -1,0 +1,122 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+/*=====================*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif !important;
+}
+html{
+  font-family: 'Rubik', sans-serif !important;
+}
+.logo{
+  height: 30px;
+}
+.container-fluid{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+.row{
+  --bs-gutter-x: 0 !important;
+  --bs-gutter-y: 0 !important;
+}
+/*=====================*/
+.mainColor{
+  color: #FFCE45 !important;
+}
+.mainBg{
+  background-color: #FFCE45 !important;
+}
+/*===================== NAVIGATION*/
+.navigation{
+  height: 60px;
+}
+@media only screen and (max-width:600px)  { 
+  .navigation{
+    height: auto;
+  }
+}
+/*===================== BANNER*/
+.customBanner{
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*===================== PROPCARD */
+.badge{
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+.propCardImg{
+  width: 100%;
+  height: 310px;
+}
+.propName{
+  font-weight: 600;
+  line-height: 17.5px;
+}
+.propType{
+  opacity: .7;
+}
+.propLocation{
+  line-height: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.propDesc{
+  line-height: 20px;
+  margin-bottom: 20px;
+  height: 40px;
+  overflow-y: scroll;
+}
+.propPrice{
+  line-height: 15px;
+  border-bottom: 2px solid #FFCE45;
+  padding-bottom: 9.5px;
+  min-width: 50px;
+  text-align: right;
+}
+.propInfo{
+  position: relative;
+}
+.propInfo .propCardIcon, .propCardIconBtn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45px;
+}
+.propInfo .propCardIcon:first-of-type{
+  right: 45px;
+}
+/*===================== FOOTER*/
+/*===================== PANEL*/
+.panel tbody tr{
+  height: 80px;
+}
+.panel td, .panel th{
+  width: calc(100% / 6.5);
+}
+.panel td:first-of-type, .panel th:first-of-type{
+  width: 0.5%;
+}
+.panel thead th{
+  margin-top: 20px;
+}
+.panel thead, .panel tbody{
+  padding: 50px !important;
+}
+/*=====================*/
